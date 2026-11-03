@@ -1,0 +1,12 @@
+NORTHSTAR STUDIO — SYNTHETIC QUARTERLY FINANCIAL REPORT
+Period: 2026-Q3
+Currency: AED
+Revenue: 1,200,000
+Cost of goods sold: 720,000
+Operating expenses: 280,000
+Cash balance: 600,000
+Monthly net burn: 120,000
+Reported gross margin: 45%
+Scope: Whole company, standalone quarter, amounts in full currency units.
+The reported gross margin above deliberately contains an arithmetic error for the assessment. Recompute from revenue and cost of goods sold.
+All figures are synthetic. Monthly net burn is a separate cash-flow measure, not operating profit.

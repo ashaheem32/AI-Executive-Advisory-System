@@ -1,0 +1,7 @@
+NORTHSTAR STUDIO — COMPANY OVERVIEW
+Northstar Studio is a fictional business operations consultancy with 42 employees.
+Headquarters: Dubai.
+Services: Operations design, reporting automation and customer support consulting.
+Report approval: Department managers review monthly reports before the fifth business day.
+Data retention: Synthetic demonstration documents are retained until the local database is deleted.
+All content is synthetic and created for a recruitment assessment.
