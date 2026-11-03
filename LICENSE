@@ -1,0 +1,45 @@
+Copyright (c) 2026 Mohammed Shaheem Abdul Salam. All rights reserved.
+
+EVALUATION-ONLY LICENSE
+
+This software, including its source code, documentation, design, sample
+documents and media (the "Software"), is provided solely so that it can be
+evaluated as part of a recruitment assessment.
+
+Permitted use
+
+You may view, download, install and run the Software, and run its tests,
+only to evaluate the author's submission for that assessment, and only for
+as long as that evaluation lasts.
+
+Restrictions
+
+Without the author's prior written consent, you may not:
+
+  1. Use the Software, or any part of it, in a commercial product, service
+     or internal business operation.
+  2. Copy, modify, adapt or create derivative works of the Software, except
+     for temporary changes needed to run or test it during evaluation.
+  3. Distribute, sublicense, sell, publish or otherwise make the Software
+     available to anyone outside the evaluation.
+  4. Remove or change this notice or any copyright notice in the Software.
+
+No transfer of ownership
+
+Submitting the Software for assessment does not transfer, assign or license
+any intellectual property rights beyond the limited evaluation use above.
+
+Third-party components
+
+Third-party libraries listed in requirements.txt and requirements.lock are
+not covered by this license. They remain under their own licenses.
+
+No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT
+OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+For permission requests, contact the author: ashaheem32@gmail.com
