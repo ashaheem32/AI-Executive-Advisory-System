@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:12,000
+A FUNCTIONAL LOCAL PROOF OF CONCEPT
+Document questions. Finance calculations. HR policy checks. Access control. Database automation. This captioned visual walkthrough uses actual browser screenshots from the running local application. Local evidence mode is shown. The optional OpenAI integration was tested with HTTP mocks; no live model call was made. Generated with OpenAI Codex. Contribution details are in DISCLOSURE.md.
+
+2
+00:00:12,000 --> 00:00:20,000
+01 / THE WORKSPACE
+Six synthetic source documents, two specialist advisors, and role-aware access. No API key is needed for the local evidence demo.
+
+3
+00:00:20,000 --> 00:00:32,000
+02 / FINANCIAL ACCURACY
+Q3 gross margin is recomputed in Python: (1,200,000 - 720,000) / 1,200,000 = 40%. The source reports 45%; the mismatch is flagged.
+
+4
+00:00:32,000 --> 00:00:40,000
+03 / TRACEABLE SOURCES
+Clicking a reference opens the exact source passage and the full document. Finance inputs remain traceable to their original lines.
+
+5
+00:00:40,000 --> 00:00:49,000
+04 / CODE-BASED ANALYSIS
+Revenue growth is 20% from Q2 to Q3. The server shows both source inputs and the formula; the model does not perform the arithmetic.
+
+6
+00:00:49,000 --> 00:00:57,000
+05 / HR POLICY RETRIEVAL
+The request routes to HR / Management. The annual leave entitlement is quoted from the employee handbook: 24 working days per year.
+
+7
+00:00:57,000 --> 00:01:08,000
+06 / CONFLICTING INFORMATION
+The handbook allows 2 remote days; an addendum says 3. Both sources are shown. The system asks HR to confirm precedence.
+
+8
+00:01:08,000 --> 00:01:16,000
+07 / MISSING EVIDENCE
+There is no parental leave policy in the accessible library. The assistant says it cannot find sufficient evidence and returns no invented source.
+
+9
+00:01:16,000 --> 00:01:24,000
+08 / UPLOAD A NEW REPORT
+An Administrator uploads a synthetic Q4 PDF, selects Finance and assigns Shared access. PDF, Word and text uploads are supported.
+
+10
+00:01:24,000 --> 00:01:34,000
+09 / WORKING DATABASE AUTOMATION
+The upload triggers extraction and an extractive summary. SQLite records a completed job, summary and processing attempt count.
+
+11
+00:01:34,000 --> 00:01:43,000
+10 / THE COMPLETE WORKFLOW
+The newly uploaded PDF is immediately usable: Q4 gross margin is 46%, with citations to page 1 and the exact source metric lines.
+
+12
+00:01:43,000 --> 00:01:51,000
+11 / WORD DOCUMENT SUPPORT
+A Word policy upload is indexed and summarized. The HR advisor retrieves the AED 2,000 training budget with its source reference.
+
+13
+00:01:51,000 --> 00:01:58,000
+12 / AUTHORIZED CONFIDENTIAL ACCESS
+Administrator can retrieve the synthetic executive salary. This document is explicitly classified as confidential.
+
+14
+00:01:58,000 --> 00:02:08,000
+13 / STANDARD USER IS DENIED
+After signing out and switching accounts, the same executive salary question has insufficient evidence. No confidential citation is returned.
+
+15
+00:02:08,000 --> 00:02:16,000
+14 / DIRECT ACCESS IS DENIED TOO
+The exact source URL used by the Administrator returns Document not found for Standard User. Authorization is enforced by the server.
+
+16
+00:02:16,000 --> 00:02:24,000
+15 / FILTERED LIBRARY AND SUMMARIES
+Standard User sees seven shared documents after the two uploads. The confidential source and its summary are absent.
+
+17
+00:02:24,000 --> 00:02:32,000
+16 / GENERAL KNOWLEDGE
+The knowledge assistant retrieves the company services directly from the accessible overview document, with an inspectable source.
+
+18
+00:02:32,000 --> 00:02:44,000
+17 / ARCHITECTURE AND DEPLOYMENT
+One local service and SQLite. Access is filtered before retrieval. Deploy behind HTTPS with secret management, monitoring and isolated parsing workers.
+
+19
+00:02:44,000 --> 00:02:57,000
+18 / RELIABILITY AND LIMITS
+Tested: access denial, missing/conflicting evidence, incorrect financial inputs, rounding and zero denominators. Tested: corrupt uploads, durable job failure and retry, provider timeout / 401 / 429 / 503, invalid citations, and database failure. Limits: lexical retrieval, labelled policy conflicts, single-process automation, and strict financial report formats. Live model connectivity and Docker deployment remain unverified. See README.md, TEST_RESULTS.md and DISCLOSURE.md.
+
